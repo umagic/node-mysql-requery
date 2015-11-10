@@ -1,5 +1,5 @@
 var mysql = require('mysql');
-var go = require('requery');
+var go = require('requery.js');
 
 
 var connection = mysql.createConnection({
