@@ -11,7 +11,7 @@ Works with node-mysql
 
 Example:
 ```javascript
-requery('SELECT * FROM `tradeoffers1` WHERE `stat` = 0 LIMIT 1', function (results) {
+requery('SELECT * FROM `table` WHERE `field` = 0 LIMIT 1', function (results) {
     console.log(results);
 });
 ```
