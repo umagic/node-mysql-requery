@@ -1,6 +1,8 @@
 # node-mysql-requery
 The crutch-function to start query again, if mysql returns an error. It's very useful and innovation
 
+Works with node-mysql
+
 Example:
 ```javascript
 requery('SELECT * FROM `tradeoffers1` WHERE `stat` = 0 LIMIT 1', function (results) {
