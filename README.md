@@ -21,9 +21,7 @@ Function source:
 function requery(query, callback) {
     connection.query(query, function (error, results) {
         if (error) {
-            console.log(error);
             setTimeout(function () {
-                console.log(query);
                 requery(query);
             }, 1000);
         } else {
