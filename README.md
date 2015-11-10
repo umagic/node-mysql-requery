@@ -1,3 +1,9 @@
+```javascript
+— Omg why did u do it ohhh???
+— Because I need to recall query if it returns an error, arrrrr
+```
+
+
 # node-mysql-requery
 The crutch-function to start query again, if mysql returns an error. It's very useful and innovation
 
