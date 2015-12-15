@@ -33,7 +33,7 @@ function requery(query, callback) {
 }
 ```
 
-Function source with the wonderful debug:
+Function source with the wonderful debug🦄:
 ```javascript
 function requery(query, callback) {
     connection.query(query, function (error, results) {
