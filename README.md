@@ -1,4 +1,5 @@
 ATTENTION! All people, who used the old version of example should update it! I missed some callback things, sorry))))
+ATTENTION 2! I've added the unicorn emoji-icon after the word "debug" in the README.md
 
 ```javascript
 — Omg why did u do it ohhh???
