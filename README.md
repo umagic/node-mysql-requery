@@ -1,3 +1,5 @@
+ATTENTION! All people, who used the old version of example should update it! I missed some callback things, sorry))))
+
 ```javascript
 — Omg why did u do it ohhh???
 — Because I need to recall query if it returns an error, arrrrr
@@ -22,7 +24,7 @@ function requery(query, callback) {
     connection.query(query, function (error, results) {
         if (error) {
             setTimeout(function () {
-                requery(query);
+                requery(query, callback);
             }, 1000);
         } else {
             callback(0, results);
@@ -39,7 +41,7 @@ function requery(query, callback) {
             console.log(error);
             setTimeout(function () {
                 console.log(query);
-                requery(query);
+                requery(query, callback);
             }, 1000);
         } else {
             callback(0, results);
